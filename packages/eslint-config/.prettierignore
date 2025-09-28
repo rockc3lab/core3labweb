@@ -1,0 +1,17 @@
+# Build outputs
+dist
+.next
+out
+node_modules
+
+# System files
+.DS_Store
+*.log
+
+# Test artifacts
+coverage
+*.snap
+
+# Config files
+*.yaml
+*.yml

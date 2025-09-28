@@ -1,0 +1,30 @@
+{
+  "name": "@repo/tailwind-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "tailwind.config.ts",
+  "types": "tailwind.config.ts",
+  "files": [
+    "*.config.*",
+    "src"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules .cache .turbo"
+  },
+  "dependencies": {
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "4.1.11"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}
