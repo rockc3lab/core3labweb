@@ -17,8 +17,8 @@ export const menuItems = [
       { title: "Project Based", href: "/services/project-based" },
     ],
   },
-  { title: "Vacancies", href: "/vacancies" },
-  { title: "Our Projects", href: "/our-projects" },
+  // { title: "Vacancies", href: "/vacancies" },
+  // { title: "Our Projects", href: "/our-projects" },
   { title: "Contact Us", href: "/contact-us" },
 ];
 export const mainSlider = [
